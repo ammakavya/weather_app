@@ -1,5 +1,14 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background-color: white;
 }
 
 .App-logo {
@@ -21,7 +30,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -35,4 +44,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+.app{
+  background-color: black;
 }
